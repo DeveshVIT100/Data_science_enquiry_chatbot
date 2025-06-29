@@ -1,0 +1,34 @@
+
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - concept_clarification
+  - tool_recommendation
+  - error_troubleshooting
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with your data science questions today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask more data science questions anytime."
+
+  utter_ask_clarification:
+    - text: "Dimensionality reduction is a process used to reduce the number of features in a dataset. Common techniques include PCA, LDA, and t-SNE."
+
+  utter_tool_recommendation:
+    - text: "For data visualization, Python with Matplotlib or Seaborn is widely used. However, R with ggplot2 is also great, especially for statistical plots."
+
+  utter_error_help:
+    - text: "Please provide the error message and a short snippet of the code causing the problem. I’ll try to help!"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_clarification
+  - utter_tool_recommendation
+  - utter_error_help

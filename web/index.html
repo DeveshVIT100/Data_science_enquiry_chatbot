@@ -1,0 +1,11 @@
+
+<script src="https://unpkg.com/@rasahq/rasa-webchat/lib/index.js"></script>
+<script>
+  WebChat.default({
+    initPayload: "/greet",
+    customData: { language: "en" },
+    socketUrl: "http://localhost:5005",
+    title: "Data Science Enquiry Bot",
+    subtitle: "Ask me anything about data science!"
+  }, null);
+</script>

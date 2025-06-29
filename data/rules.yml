@@ -1,0 +1,28 @@
+
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Clarify concept
+  steps:
+  - intent: concept_clarification
+  - action: utter_ask_clarification
+
+- rule: Recommend tools
+  steps:
+  - intent: tool_recommendation
+  - action: utter_tool_recommendation
+
+- rule: Troubleshoot errors
+  steps:
+  - intent: error_troubleshooting
+  - action: utter_error_help

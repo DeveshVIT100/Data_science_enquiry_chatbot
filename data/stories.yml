@@ -1,0 +1,16 @@
+
+version: "3.1"
+
+stories:
+- story: data science enquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: concept_clarification
+  - action: utter_ask_clarification
+  - intent: tool_recommendation
+  - action: utter_tool_recommendation
+  - intent: error_troubleshooting
+  - action: utter_error_help
+  - intent: goodbye
+  - action: utter_goodbye

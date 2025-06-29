@@ -1,0 +1,45 @@
+
+version: "3.1"
+
+nlu:
+- intent: concept_clarification
+  examples: |
+    - What is dimensionality reduction?
+    - Explain PCA in data science
+    - Can you describe feature selection techniques?
+
+- intent: tool_recommendation
+  examples: |
+    - Should I use Python or R for visualization?
+    - Recommend a library for plotting graphs
+    - Which is better: matplotlib or ggplot2?
+
+- intent: error_troubleshooting
+  examples: |
+    - I'm getting an error when running my model
+    - My code crashes with a ValueError
+    - Help me fix this ML algorithm issue
+
+- intent: greet
+  examples: |
+    - Hello
+    - Hi there
+    - Hey
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you later
+    - Goodbye
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Sure
+    - Absolutely
+
+- intent: deny
+  examples: |
+    - No
+    - Not really
+    - Nope
